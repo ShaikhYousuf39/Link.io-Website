@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(43, 75, 117);
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover {
+  color: rgb(255, 255, 255, 0.5);
+}
+nav img {
+  margin: 20px;
+  width: 200px;
+}
+nav img:hover {
+  cursor: pointer;
+}
+.reg {
+  color: rgb(187, 163, 59);
+  font-weight: bold;
+}
+.home {
+  width: 90vw;
+  height: 30vh;
+  margin: auto;
+  margin-top: 100px;
+  font-family: "poppins";
+  display: flex;
+}
+.home h1 .lastword {
+  font-size: 3vw;
+  font-style: oblique;
+  color: purple;
+}
+.home h1 {
+  font-size: 3vw;
+}
+.home p {
+  font-size: 1vw;
+}
+.home img {
+  box-shadow: 3px 3px 5px gray;
+  margin: 40px;
+  width: 25vw;
+  height: 40vh;
+}
+.headings {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Make items stretch like block elements */
+  gap: 10px;
+  margin-top: 280px;
+}
+.headings h2 {
+  font-family: "Roboto";
+  font-size: 50px;
+}
+.headings h3 {
+  font-family: "poppins";
+  font-size: 20px;
+  color: rgb(56, 85, 129);
+}
+.boxpos{
+  position: absolute;
+  display: flex;
+  margin: 160px;
+  top: 90vh;
+}
+.boxx {
+  margin: 40px;
+  width: 20vw;
+  height: 51vh;
+  border: 2px solid rgb(209, 185, 185);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.boxs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.image {
+  margin: 20px;
+  width: 15vw;
+  height: 22vh;
+  border-radius: 6px;
+}
+.boxh1 {
+  margin: 5px;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+.boxp {
+  text-align: start;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(180, 170, 170);
+  width: 200px;
+}
+.boxbutton {
+  margin: 16px;
+  font-family: "poppins";
+  font-weight: bolder;
+  font-size: 12px;
+  color: rgba(80, 80, 223, 0.873);
+  background-color: rgba(177, 129, 221, 0.408);
+  padding: 7px;
+  border-radius: 10px;
+}
+.boxbutton:hover {
+  cursor: pointer;
+  background-color: rgba(80, 80, 223, 0.477);
+}
+.contact {
+  position: absolute;
+  top: 200vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60vw;
+  margin-left: 300px;
+}
+.contact h1 {
+  font-family: "Roboto";
+  color: rgb(32, 32, 111);
+  font-size: 60px;
+  width: 250px;
+  line-height: 80px;
+}
+.contact ul li {
+  font-family: "poppins";
+  list-style: none;
+  margin: 10px;
+  font-size: 16px;
+}
+.register {
+  margin-left: 350px;
+  position: absolute;
+  top: 245vh;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+}
+.register h1 {
+  color: rgb(22, 22, 61);
+  font-family: "Roboto";
+  font-size: 80px;
+  text-align: center;
+}
+.register .button {
+  font-size: 16px;
+  color: white;
+  background-color: rgb(64, 17, 73);
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 6px gray;
+}
+.button:hover {
+  cursor: pointer;
+}
+.input {
+  display: flex;
+}
+.input input {
+  width: 220px;
+  font-family: "poppins";
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 3px gray inset;
+}
+footer {
+  position: absolute;
+  top: 310vh;
+  background-color: rgb(17, 25, 45);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98.8vw;
+}
+footer img {
+  width: 150px;
+  padding: 10px;
+}
+footer p {
+  padding: 20px;
+  color: white;
+}
+footer div {
+  display: flex;
+}
+footer div p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
